@@ -1,9 +1,12 @@
 <!--pages/index/rank_list/rank_list.wxml-->
 <view class="container">
-  <view>
-    <view>
-      <image class="play-img" src="/assets/images/stop.png"></image>
+  
+  <view class="song" wx:for="{{songs}}" wx:key="name">
+    <image class="play-img" src="{{bindUrl[index]?playUrl:stopUrl}}" data-cid="{{index}}" bindtap="play"></image>
+    <view class="title">
+      <text class="mname">{{item.name}}</text>
+      <text class="author">{{item.artists[0].name}}</text>
     </view>
-
+    <view class="time">3:30</view>
   </view>
 </view>
