@@ -7,7 +7,7 @@
   </swiper-item>
 </swiper>
 <view class="navbar">
-  <view>
+  <view bindtap="to_rank">
     <image src="/assets/images/topicon02.png"></image>
     <text>榜单</text>
   </view>
@@ -52,12 +52,92 @@
         <view><text>We The Kings</text></view>
         <view><text>amith kid</text></view>
       </view>
+
     </movable-view>
   </movable-area>
 </view>
-<view></view>
-<view></view>
-
-<view></view>
-<view></view>
-<view></view>
+<!-- kk -->
+<view class="kk">
+  <view class="kk-top">
+    <view class="kk-right">      
+    <image src="../../assets/images/home/img01.jpg"></image>
+    <image src="../../assets/images/home/img02.jpg"></image>
+    <image src="../../assets/images/home/img03.jpg"></image>
+    <image src="../../assets/images/home/img04.jpg"></image>
+  </view>
+  <text class="kk-left">发现附近的音乐 > </text> 
+  </view>
+  <view class="kk-bottom">今天的音听共十页，浏览需要三分钟，由你关注的小花为你精选</view>
+</view>
+<view class="daily-topic">
+  <view class="top clearfix">
+    <text class="text-left">每日主题</text>
+    <text class="text-right">更多</text>
+  </view>
+  <view class="bottom">
+    <view class="bottom-left">    
+    <image src="../../assets/images/home/everday01.jpg"></image>
+    <view class="daily-text-left">
+    <text>#清晨</text>
+    <text>一缕暖阳照进窝</text>
+    </view>
+    </view>
+    <view class="bottom-right">
+    <image src="../../assets/images/home/everday02.jpg"></image>
+    <view class="daily-text-right">
+    <text>#午后</text>
+    <text>这份阳光送给你</text>
+    </view>
+    </view>
+  </view>
+</view>
+<view class="kkk">
+<!-- K歌金曲 -->
+<view class="daily-topic">
+  <view class="top clearfix">
+    <text class="text-left">K歌金曲</text>
+    <text class="text-right">更多</text>
+  </view>
+  <view class="bottom">
+    <view class="bottom-left">    
+    <image src="../../assets/images/home/everday03.jpg"></image>
+    <view class="daily-text-left">
+    <text>#必点</text>
+    <text>每场必唱歌曲</text>
+    </view>
+    </view>
+    <view class="bottom-right">
+    <image src="../../assets/images/home/everday04.jpg"></image>
+    <view class="daily-text-right">
+    <text>#女声</text>
+    <text>细腻的声线拉近距离</text>
+    </view>
+    </view>
+  </view>
+</view>
+  <view class="name">#音乐人</view>
+    <view class="name-list">
+      <view>
+        <image src="../../assets/images/home/dengziqi.jpg"></image>
+        <text>邓紫棋</text>
+        <text>创造才女</text>
+      </view>
+      <view>
+        <image src="../../assets/images/home/zhoujielun.jpg"></image>
+        <text>周杰伦</text>
+        <text>独立音乐人</text>
+      </view>      
+      <view>
+        <image src="../../assets/images/home/lijian.PNG"></image>
+        <text>李健</text>
+        <text>诗人歌手</text>
+      </view>
+      <view>
+        <image src="../../assets/images/home/liangbo.jpg"></image>
+        <text>梁博</text>
+        <text>创造才子</text>
+      </view>
+    </view>
+ <button size="mini">更多</button>
+</view>
+<view class="last-view"></view>

@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  to_rank: function() {
+    wx.navigateTo({
+      url: 'rank_list/rank_list'
+    })
   }
 })
