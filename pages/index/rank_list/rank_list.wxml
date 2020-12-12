@@ -1,7 +1,7 @@
 <!--pages/index/rank_list/rank_list.wxml-->
 <view class="container">
   
-  <view class="song" wx:for="{{songs}}">
+  <view class="song" wx:for="{{songs}}" wx:key="name">
     <image class="play-img" src="{{bindUrl[index]?playUrl:stopUrl}}" data-cid="{{index}}" bindtap="play"></image>
     <view class="title">
       <text class="mname">{{item.name}}</text>
