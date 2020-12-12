@@ -1,0 +1,5 @@
+/* pages/index/rank_list/rank_list.wxss */
+.play-img {
+  height: 80rpx;
+  width: 80rpx;
+}

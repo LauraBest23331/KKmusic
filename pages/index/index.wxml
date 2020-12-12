@@ -1,0 +1,63 @@
+<swiper class="swiper-top" autoplay="true" indicator-dots circular>
+  <swiper-item>
+    <image src="/assets/images/home/banner01.jpg" item-id="1"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/assets/images/home/banner02.jpg" item-id="2"></image>
+  </swiper-item>
+</swiper>
+<view class="navbar">
+  <view>
+    <image src="/assets/images/topicon02.png"></image>
+    <text>榜单</text>
+  </view>
+  <view>
+    <image src="/assets/images/topicon01.png"></image>
+    <text>每日推荐</text>
+  </view>
+  <view>
+    <image src="/assets/images/topicon03.png"></image>
+    <text>附近</text>
+  </view>
+  <view>
+    <image src="/assets/images/topicon04.png"></image>
+    <text>私人FM</text>
+  </view>
+</view>
+<view class="movable-container">
+  <view class="title">
+    <text><text>热门原创</text></text>
+    <text>更多</text>
+  </view>
+  <movable-area class="first-movable-area">
+    <movable-view inertia direction="horizontal">
+      <view>
+        <image src="/assets/images/home/img01.jpg"></image>
+        <view><text>We The Kings</text></view>
+        <view><text>amith kid</text></view>
+      </view>
+      <view>
+        <image src="/assets/images/home/img02.jpg"></image>
+        <view><text>We The Kings</text></view>
+        <view><text>amith kid</text></view>
+      </view>
+      <view>
+        <image src="/assets/images/home/img03.jpg"></image>
+
+        <view><text>We The Kings</text></view>
+        <view><text>amith kid</text></view>
+      </view>
+      <view>
+        <image src="/assets/images/home/img04.jpg"></image>
+        <view><text>We The Kings</text></view>
+        <view><text>amith kid</text></view>
+      </view>
+    </movable-view>
+  </movable-area>
+</view>
+<view></view>
+<view></view>
+
+<view></view>
+<view></view>
+<view></view>

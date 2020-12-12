@@ -1,0 +1,9 @@
+<!--pages/index/rank_list/rank_list.wxml-->
+<view class="container">
+  <view>
+    <view>
+      <image class="play-img" src="/assets/images/stop.png"></image>
+    </view>
+
+  </view>
+</view>
