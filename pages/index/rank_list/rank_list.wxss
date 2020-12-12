@@ -2,4 +2,34 @@
 .play-img {
   height: 80rpx;
   width: 80rpx;
+  
+}
+.container {
+  padding: 0 20rpx;
+}
+.song {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #ddd;
+}
+.title {
+  width: 470rpx;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.title .mname {
+  font-size: 36rpx;
+}
+.title .author {
+  font-size: 26rpx;
+  color: #666;
+}
+.time {
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  color: #666;
 }
